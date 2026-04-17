@@ -101,6 +101,8 @@ tr:last-child td{border-bottom:none}
 .sector-ems{background:rgba(167,139,250,.1);color:var(--purple)}
 .sector-capmarket{background:rgba(91,138,240,.1);color:var(--blue)}
 .sector-nbfc{background:rgba(78,205,196,.1);color:var(--cyan)}
+.sector-metals{background:rgba(232,185,49,.1);color:var(--gold)}
+.sector-pharma{background:rgba(236,72,153,.1);color:var(--pink)}
 .mono{font-family:'DM Mono',monospace;font-size:.8rem}
 .pl-pos{color:var(--green);font-weight:600}
 .pl-neg{color:var(--red);font-weight:600}
@@ -258,7 +260,7 @@ td.right,th.right{text-align:right}
   <div class="analysis animate d5" id="analysisSection"></div>
 
   <footer class="footer animate d6">
-    <p>Built for tracking a ₹1L Indian equity portfolio across 15 stocks spanning defence, banking, green energy, EMS, and consumption themes.</p>
+    <p>Built for tracking a ₹1L Indian equity portfolio across 16 stocks spanning defence, banking, metals, pharma, green energy, EMS, and consumption themes.</p>
     <p class="disclaimer">Not SEBI-registered advice. For educational and personal tracking only. Prices may be delayed.</p>
   </footer>
 </div>
@@ -272,7 +274,8 @@ const PORTFOLIO = [
   {name:"Tata Motors",ticker:"TATAMOTORS",sector:"Auto / EV",sectorClass:"auto",cap:"large",theme:"Consumption",buyPrice:442,qty:17,yahooTicker:"TMCV.NS"},
   {name:"BEL",ticker:"BEL",sector:"Defence",sectorClass:"defence",cap:"large",theme:"Defence & Naval",buyPrice:460,qty:13,yahooTicker:"BEL.NS"},
   {name:"Indian Hotels",ticker:"INDHOTEL",sector:"Tourism",sectorClass:"tourism",cap:"mid",theme:"Consumption",buyPrice:654,qty:11,yahooTicker:"INDHOTEL.NS"},
-  {name:"Polycab",ticker:"POLYCAB",sector:"Industrials",sectorClass:"infra",cap:"mid",theme:"EMS & Manufacturing",buyPrice:8134,qty:1,yahooTicker:"POLYCAB.NS"},
+  {name:"Hindalco",ticker:"HINDALCO",sector:"Metals",sectorClass:"metals",cap:"large",theme:"Metals & Mining",buyPrice:1039,qty:4,yahooTicker:"HINDALCO.NS"},
+  {name:"Sun Pharma",ticker:"SUNPHARMA",sector:"Pharma",sectorClass:"pharma",cap:"large",theme:"Pharma",buyPrice:1676,qty:2,yahooTicker:"SUNPHARMA.NS"},
   {name:"Cochin Shipyard",ticker:"COCHINSHIP",sector:"Defence",sectorClass:"defence",cap:"mid",theme:"Defence & Naval",buyPrice:1560,qty:4,yahooTicker:"COCHINSHIP.NS"},
   {name:"Max Healthcare",ticker:"MAXHEALTH",sector:"Healthcare",sectorClass:"healthcare",cap:"mid",theme:"Healthcare",buyPrice:1007,qty:5,yahooTicker:"MAXHEALTH.NS"},
   {name:"Cholamandalam",ticker:"CHOLAFIN",sector:"NBFC",sectorClass:"nbfc",cap:"mid",theme:"Banking & Finance",buyPrice:1579,qty:4,yahooTicker:"CHOLAFIN.NS"},

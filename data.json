@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T15:05:41.743Z",
+  "lastUpdated": "2026-04-17T16:00:41.641Z",
   "prices": {
     "ICICIBANK": {
       "price": 1346.8,
@@ -50,12 +50,19 @@
       "dayLow": 647.9,
       "prevClose": 652.75
     },
-    "POLYCAB": {
-      "price": 8182.5,
-      "name": "Polycab India Limited",
-      "dayHigh": 8224.5,
-      "dayLow": 7910,
-      "prevClose": 7903.5
+    "HINDALCO": {
+      "price": 1039,
+      "name": "Hindalco Industries Limited",
+      "dayHigh": 1040.75,
+      "dayLow": 1025,
+      "prevClose": 1039.9
+    },
+    "SUNPHARMA": {
+      "price": 1675.5,
+      "name": "Sun Pharmaceutical Industries Limited",
+      "dayHigh": 1696.9,
+      "dayLow": 1670.5,
+      "prevClose": 1693.1
     },
     "COCHINSHIP": {
       "price": 1561.1,
