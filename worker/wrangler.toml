@@ -1,0 +1,4 @@
+name = "portfolio-api"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+account_id = "0ad7f57c1ffb51462ae8700295245796"

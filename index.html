@@ -237,7 +237,7 @@ const PORTFOLIO = [
   {name:"HDFC Bank",ticker:"HDFCBANK",sector:"Banking",sectorClass:"banking",cap:"large",theme:"Banking & Finance",buyPrice:800,qty:9,yahooTicker:"HDFCBANK.NS"},
   {name:"Bharti Airtel",ticker:"BHARTIARTL",sector:"Telecom",sectorClass:"telecom",cap:"large",theme:"Infra & Telecom",buyPrice:1842,qty:3,yahooTicker:"BHARTIARTL.NS"},
   {name:"L&T",ticker:"LT",sector:"Infrastructure",sectorClass:"infra",cap:"large",theme:"Infra & Telecom",buyPrice:4098,qty:1,yahooTicker:"LT.NS"},
-  {name:"Tata Motors",ticker:"TATAMOTORS",sector:"Auto / EV",sectorClass:"auto",cap:"large",theme:"Consumption",buyPrice:442,qty:17,yahooTicker:"TATAMOTORS.NS"},
+  {name:"Tata Motors",ticker:"TATAMOTORS",sector:"Auto / EV",sectorClass:"auto",cap:"large",theme:"Consumption",buyPrice:442,qty:17,yahooTicker:"TMCV.NS"},
   {name:"BEL",ticker:"BEL",sector:"Defence",sectorClass:"defence",cap:"large",theme:"Defence & Naval",buyPrice:460,qty:13,yahooTicker:"BEL.NS"},
   {name:"Indian Hotels",ticker:"INDHOTEL",sector:"Tourism",sectorClass:"tourism",cap:"mid",theme:"Consumption",buyPrice:654,qty:11,yahooTicker:"INDHOTEL.NS"},
   {name:"Polycab",ticker:"POLYCAB",sector:"Industrials",sectorClass:"infra",cap:"mid",theme:"EMS & Manufacturing",buyPrice:8134,qty:1,yahooTicker:"POLYCAB.NS"},
@@ -371,44 +371,52 @@ function render(){
   updateTimestamp();
 }
 
+const WORKER_URL='https://portfolio-api.linpap.workers.dev';
+
 async function refreshPrices(){
   const btn=document.getElementById('refreshBtn');
   btn.classList.add('loading');btn.textContent='Fetching...';
   const tickers=PORTFOLIO.map(s=>s.yahooTicker).join(',');
   try{
-    const resp=await fetch(`https://query1.finance.yahoo.com/v7/finance/quote?symbols=${tickers}&fields=regularMarketPrice,symbol`);
-    if(!resp.ok) throw new Error('API blocked — CORS');
+    const resp=await fetch(`${WORKER_URL}/quote?symbols=${tickers}`);
+    if(!resp.ok) throw new Error(`Worker returned ${resp.status}`);
     const json=await resp.json();
-    if(json.quoteResponse&&json.quoteResponse.result){
-      json.quoteResponse.result.forEach(q=>{
-        const match=PORTFOLIO.find(s=>s.yahooTicker===q.symbol);
-        if(match&&q.regularMarketPrice)currentPrices[match.ticker]=q.regularMarketPrice;
-      });
-    }
-    render();
+    json.quotes.forEach(q=>{
+      const match=PORTFOLIO.find(s=>s.yahooTicker===q.symbol);
+      if(match&&q.price)currentPrices[match.ticker]=q.price;
+    });
+    updateTimestamp();render();
   }catch(e){
-    console.warn('Direct Yahoo API blocked by CORS. Trying proxy...',e);
+    console.warn('Worker fetch failed, reloading data.json:',e);
     try{
-      const proxyUrl=`https://corsproxy.io/?url=${encodeURIComponent(`https://query1.finance.yahoo.com/v7/finance/quote?symbols=${tickers}`)}`;
-      const resp2=await fetch(proxyUrl);
+      const resp2=await fetch('data.json?t='+Date.now());
       if(resp2.ok){
-        const json2=await resp2.json();
-        if(json2.quoteResponse&&json2.quoteResponse.result){
-          json2.quoteResponse.result.forEach(q=>{
-            const match=PORTFOLIO.find(s=>s.yahooTicker===q.symbol);
-            if(match&&q.regularMarketPrice)currentPrices[match.ticker]=q.regularMarketPrice;
-          });
-        }
+        const data=await resp2.json();
+        Object.entries(data.prices).forEach(([t,info])=>{currentPrices[t]=info.price});
         render();
       }
-    }catch(e2){
-      console.warn('Proxy also failed. Showing buy prices.',e2);
-    }
+    }catch(e2){console.warn('Fallback also failed',e2)}
   }
   btn.classList.remove('loading');btn.textContent='Refresh Prices';
 }
 
-render();
+async function init(){
+  try{
+    const resp=await fetch('data.json');
+    if(resp.ok){
+      const data=await resp.json();
+      Object.entries(data.prices).forEach(([t,info])=>{currentPrices[t]=info.price});
+      if(data.lastUpdated){
+        const d=new Date(data.lastUpdated);
+        document.getElementById('ts').textContent=
+          d.toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'})+' '+
+          d.toLocaleTimeString('en-IN',{hour:'2-digit',minute:'2-digit'});
+      }
+    }
+  }catch(e){console.warn('No data.json, using buy prices',e)}
+  render();
+}
+init();
 </script>
 </body>
 </html>
