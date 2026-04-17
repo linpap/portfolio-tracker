@@ -144,6 +144,36 @@ td.right,th.right{text-align:right}
 .cap-legend-item{display:flex;align-items:center;gap:6px;font-size:.72rem;color:var(--text-dim)}
 .cap-dot{width:8px;height:8px;border-radius:2px}
 
+/* Weekly Analysis */
+.analysis{margin-bottom:36px}
+.analysis-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);
+  padding:28px;position:relative;overflow:hidden}
+.analysis-card::after{content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,rgba(232,185,49,.2),transparent)}
+.analysis-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;flex-wrap:wrap;gap:8px}
+.analysis-date{font-family:'DM Mono',monospace;font-size:.7rem;color:var(--text-muted);
+  padding:4px 10px;background:var(--surface2);border-radius:4px;border:1px solid var(--border)}
+.analysis-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.analysis-block{padding:16px;background:var(--surface2);border-radius:var(--radius);border:1px solid rgba(37,42,53,.6)}
+.analysis-block-title{font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;color:var(--text-muted);
+  font-weight:700;margin-bottom:10px;display:flex;align-items:center;gap:6px}
+.analysis-block-title .dot{width:6px;height:6px;border-radius:50%}
+.movers-list{display:flex;flex-direction:column;gap:6px}
+.mover{display:flex;justify-content:space-between;align-items:center;font-size:.8rem}
+.mover-name{font-weight:500}
+.mover-pct{font-family:'DM Mono',monospace;font-size:.78rem;font-weight:600}
+.outlook-text{font-size:.82rem;color:var(--text-dim);line-height:1.6}
+.outlook-text p{margin-bottom:8px}
+.news-list{display:flex;flex-direction:column;gap:8px}
+.news-item{font-size:.78rem;color:var(--text-dim);line-height:1.5;padding-left:12px;
+  border-left:2px solid var(--border-glow)}
+.earnings-list{display:flex;flex-wrap:wrap;gap:6px}
+.earnings-tag{font-family:'DM Mono',monospace;font-size:.68rem;padding:4px 8px;
+  background:var(--surface3);border:1px solid var(--border);border-radius:4px;color:var(--text-dim)}
+.no-report{text-align:center;padding:40px 20px;color:var(--text-muted);font-size:.85rem}
+.no-report .nr-sub{font-family:'DM Mono',monospace;font-size:.7rem;margin-top:6px;opacity:.6}
+@media(max-width:700px){.analysis-grid{grid-template-columns:1fr}}
+
 /* Footer */
 .footer{text-align:center;padding:32px 0 0;border-top:1px solid var(--border);margin-top:20px}
 .footer p{font-size:.7rem;color:var(--text-muted);line-height:1.7;max-width:600px;margin:0 auto}
@@ -224,6 +254,8 @@ td.right,th.right{text-align:right}
       </div>
     </div>
   </div>
+
+  <div class="analysis animate d5" id="analysisSection"></div>
 
   <footer class="footer animate d6">
     <p>Built for tracking a ₹1L Indian equity portfolio across 15 stocks spanning defence, banking, green energy, EMS, and consumption themes.</p>
@@ -400,6 +432,69 @@ async function refreshPrices(){
   btn.classList.remove('loading');btn.textContent='Refresh Prices';
 }
 
+function renderAnalysis(report){
+  const el=document.getElementById('analysisSection');
+  if(!report||!report.date){
+    el.innerHTML=`<div class="section-title">Weekly Analysis</div>
+      <div class="analysis-card"><div class="no-report">No analysis yet<div class="nr-sub">First report arrives this Sunday at 10:00 AM IST</div></div></div>`;
+    return;
+  }
+  const gainersHtml=(report.topGainers||[]).map(g=>
+    `<div class="mover"><span class="mover-name">${g.name}</span><span class="mover-pct pl-pos">+${g.change}%</span></div>`).join('');
+  const losersHtml=(report.topLosers||[]).map(l=>
+    `<div class="mover"><span class="mover-name">${l.name}</span><span class="mover-pct pl-neg">${l.change}%</span></div>`).join('');
+  const newsHtml=(report.news||[]).map(n=>
+    `<div class="news-item">${n}</div>`).join('');
+  const earningsHtml=(report.upcomingEarnings||[]).map(e=>
+    `<span class="earnings-tag">${e}</span>`).join('');
+  const outlook=typeof report.outlook==='string'?`<p>${report.outlook}</p>`:
+    (report.outlook||[]).map(p=>`<p>${p}</p>`).join('');
+  const rebalance=report.rebalancing||'No rebalancing needed this week.';
+
+  el.innerHTML=`
+    <div class="section-title">Weekly Analysis</div>
+    <div class="analysis-card">
+      <div class="analysis-header">
+        <div class="analysis-date">Report: ${report.date}</div>
+        ${report.summary?`<div style="font-size:.78rem;color:var(--text-dim);max-width:500px">${report.summary}</div>`:''}
+      </div>
+      <div class="analysis-grid">
+        <div class="analysis-block">
+          <div class="analysis-block-title"><div class="dot" style="background:var(--green)"></div>Top Gainers</div>
+          <div class="movers-list">${gainersHtml||'<span style="color:var(--text-muted);font-size:.8rem">None this week</span>'}</div>
+        </div>
+        <div class="analysis-block">
+          <div class="analysis-block-title"><div class="dot" style="background:var(--red)"></div>Top Losers</div>
+          <div class="movers-list">${losersHtml||'<span style="color:var(--text-muted);font-size:.8rem">None this week</span>'}</div>
+        </div>
+        <div class="analysis-block">
+          <div class="analysis-block-title"><div class="dot" style="background:var(--gold)"></div>Key News & Alerts</div>
+          <div class="news-list">${newsHtml||'<span style="color:var(--text-muted);font-size:.8rem">No major news</span>'}</div>
+        </div>
+        <div class="analysis-block">
+          <div class="analysis-block-title"><div class="dot" style="background:var(--blue)"></div>Upcoming Earnings</div>
+          <div class="earnings-list">${earningsHtml||'<span style="color:var(--text-muted);font-size:.8rem">None in next 2 weeks</span>'}</div>
+        </div>
+        <div class="analysis-block" style="grid-column:1/-1">
+          <div class="analysis-block-title"><div class="dot" style="background:var(--cyan)"></div>Market Outlook</div>
+          <div class="outlook-text">${outlook}</div>
+        </div>
+        <div class="analysis-block" style="grid-column:1/-1">
+          <div class="analysis-block-title"><div class="dot" style="background:var(--purple)"></div>Rebalancing Suggestions</div>
+          <div class="outlook-text"><p>${rebalance}</p></div>
+        </div>
+      </div>
+    </div>`;
+}
+
+async function loadReport(){
+  try{
+    const resp=await fetch('report.json');
+    if(resp.ok){const r=await resp.json();renderAnalysis(r)}
+    else renderAnalysis(null);
+  }catch(e){renderAnalysis(null)}
+}
+
 async function init(){
   try{
     const resp=await fetch('data.json');
@@ -415,6 +510,7 @@ async function init(){
     }
   }catch(e){console.warn('No data.json, using buy prices',e)}
   render();
+  loadReport();
 }
 init();
 </script>
