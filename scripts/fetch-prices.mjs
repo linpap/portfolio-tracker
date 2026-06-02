@@ -5,7 +5,7 @@ const TICKERS = [
   { ticker: 'HDFCBANK', yahoo: 'HDFCBANK.NS' },
   { ticker: 'BHARTIARTL', yahoo: 'BHARTIARTL.NS' },
   { ticker: 'LT', yahoo: 'LT.NS' },
-  { ticker: 'TATAMOTORS', yahoo: 'TMCV.NS' },
+  { ticker: 'TATAMOTORS', yahoo: 'TMPV.NS' },
   { ticker: 'BEL', yahoo: 'BEL.NS' },
   { ticker: 'INDHOTEL', yahoo: 'INDHOTEL.NS' },
   { ticker: 'HINDALCO', yahoo: 'HINDALCO.NS' },
