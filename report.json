@@ -1,10 +1,44 @@
 {
-  "date": null,
-  "summary": null,
-  "topGainers": [],
-  "topLosers": [],
+  "date": "2026-06-01",
+  "summary": "Portfolio down -7.2% (₹91,715 vs ₹98,792 invested). Leaders: Hindalco, Sun Pharma. Laggards: Kalyan Jewellers, PG Electroplast.",
+  "topGainers": [
+    {
+      "name": "Hindalco",
+      "change": 9.9
+    },
+    {
+      "name": "Sun Pharma",
+      "change": 7.4
+    },
+    {
+      "name": "Suzlon",
+      "change": 1.6
+    }
+  ],
+  "topLosers": [
+    {
+      "name": "Kalyan Jewellers",
+      "change": -19.1
+    },
+    {
+      "name": "PG Electroplast",
+      "change": -16.2
+    },
+    {
+      "name": "Tata Motors",
+      "change": -15.3
+    },
+    {
+      "name": "CDSL",
+      "change": -12.8
+    },
+    {
+      "name": "BEL",
+      "change": -11.5
+    }
+  ],
   "news": [],
   "upcomingEarnings": [],
-  "outlook": null,
-  "rebalancing": null
+  "outlook": "Drawdown concentrated in Kalyan Jewellers, PG Electroplast, Tata Motors. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
+  "rebalancing": "Review (down ≥15%): Tata Motors -15.3%, PG Electroplast -16.2%, Kalyan Jewellers -19.1% — re-confirm thesis; average-down only if conviction holds, else trim."
 }
