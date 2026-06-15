@@ -1,48 +1,52 @@
 {
-  "date": "2026-06-08",
-  "summary": "Portfolio down -6.8% (₹92,102 vs ₹98,792 invested). Leaders: Sun Pharma, Hindalco. Laggards: Kalyan Jewellers, PG Electroplast.",
+  "date": "2026-06-15",
+  "summary": "Portfolio down -3.2% (₹95,630 vs ₹98,792 invested). Leaders: Sun Pharma, Indian Hotels. Laggards: PG Electroplast, BEL.",
   "topGainers": [
     {
       "name": "Sun Pharma",
-      "change": 7.1
-    },
-    {
-      "name": "Hindalco",
-      "change": 2.6
-    },
-    {
-      "name": "Suzlon",
-      "change": 2.5
+      "change": 7.8
     },
     {
       "name": "Indian Hotels",
-      "change": 0.2
+      "change": 5.5
+    },
+    {
+      "name": "Cholamandalam",
+      "change": 4.7
+    },
+    {
+      "name": "Suzlon",
+      "change": 4.2
+    },
+    {
+      "name": "Max Healthcare",
+      "change": 2.2
     }
   ],
   "topLosers": [
     {
-      "name": "Kalyan Jewellers",
-      "change": -15.9
-    },
-    {
       "name": "PG Electroplast",
-      "change": -15.8
-    },
-    {
-      "name": "CDSL",
-      "change": -13.9
-    },
-    {
-      "name": "Tata Motors",
-      "change": -12
+      "change": -12.3
     },
     {
       "name": "BEL",
+      "change": -11
+    },
+    {
+      "name": "Tata Motors",
       "change": -10.3
+    },
+    {
+      "name": "Kalyan Jewellers",
+      "change": -9.9
+    },
+    {
+      "name": "Cochin Shipyard",
+      "change": -9.5
     }
   ],
   "news": [],
   "upcomingEarnings": [],
-  "outlook": "Drawdown concentrated in Kalyan Jewellers, PG Electroplast, CDSL. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
-  "rebalancing": "Review (down ≥15%): PG Electroplast -15.8%, Kalyan Jewellers -15.9% — re-confirm thesis; average-down only if conviction holds, else trim."
+  "outlook": "Drawdown concentrated in PG Electroplast, BEL, Tata Motors. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
+  "rebalancing": "No rebalancing flags this week — all holdings within normal range. Hold."
 }
