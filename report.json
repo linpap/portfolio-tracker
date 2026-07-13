@@ -1,52 +1,52 @@
 {
-  "date": "2026-07-06",
-  "summary": "Portfolio up +0.9% (₹99,723 vs ₹98,792 invested). Leaders: Cholamandalam, Sun Pharma. Laggards: Tata Motors, Kalyan Jewellers.",
+  "date": "2026-07-13",
+  "summary": "Portfolio up +2.9% (₹1,01,641 vs ₹98,792 invested). Leaders: Kalyan Jewellers, Sun Pharma. Laggards: Tata Motors, BEL.",
   "topGainers": [
     {
-      "name": "Cholamandalam",
-      "change": 16.1
+      "name": "Kalyan Jewellers",
+      "change": 24
     },
     {
       "name": "Sun Pharma",
-      "change": 13.8
+      "change": 15.1
     },
     {
-      "name": "Max Healthcare",
-      "change": 12.7
+      "name": "Cholamandalam",
+      "change": 14.8
     },
     {
       "name": "Indian Hotels",
-      "change": 12.6
+      "change": 13.1
     },
     {
-      "name": "ICICI Bank",
-      "change": 6.4
+      "name": "Max Healthcare",
+      "change": 10.8
     }
   ],
   "topLosers": [
     {
       "name": "Tata Motors",
-      "change": -21.7
-    },
-    {
-      "name": "Kalyan Jewellers",
-      "change": -10.2
+      "change": -23
     },
     {
       "name": "BEL",
-      "change": -7.8
+      "change": -10.8
+    },
+    {
+      "name": "Cochin Shipyard",
+      "change": -9
     },
     {
       "name": "Hindalco",
-      "change": -5.9
+      "change": -7.7
     },
     {
-      "name": "CDSL",
-      "change": -2.8
+      "name": "L&T",
+      "change": -4.1
     }
   ],
   "news": [],
   "upcomingEarnings": [],
-  "outlook": "Gain concentrated in Cholamandalam, Sun Pharma, Max Healthcare. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
-  "rebalancing": "Review (down ≥15%): Tata Motors -21.7% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Cholamandalam +16.1%, Sun Pharma +13.8%, Max Healthcare +12.7%, Indian Hotels +12.6%."
+  "outlook": "Gain concentrated in Kalyan Jewellers, Sun Pharma, Cholamandalam. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
+  "rebalancing": "Review (down ≥15%): Tata Motors -23.0% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Kalyan Jewellers +24.0%, Sun Pharma +15.1%, Cholamandalam +14.8%, Indian Hotels +13.1%."
 }
