@@ -1,52 +1,52 @@
 {
-  "date": "2026-08-03",
-  "summary": "Portfolio up +4.1% (₹1,02,857 vs ₹98,792 invested). Leaders: Kalyan Jewellers, Cholamandalam. Laggards: Tata Motors, BEL.",
+  "date": "2026-08-10",
+  "summary": "Portfolio up +4.3% (₹1,03,013 vs ₹98,792 invested). Leaders: Kalyan Jewellers, Cholamandalam. Laggards: Tata Motors, BEL.",
   "topGainers": [
     {
       "name": "Kalyan Jewellers",
-      "change": 42.9
+      "change": 44.1
     },
     {
       "name": "Cholamandalam",
-      "change": 18.9
+      "change": 19.9
     },
     {
       "name": "Sun Pharma",
-      "change": 16.9
-    },
-    {
-      "name": "Indian Hotels",
-      "change": 14.2
+      "change": 16.5
     },
     {
       "name": "PG Electroplast",
-      "change": 10.6
+      "change": 11.9
+    },
+    {
+      "name": "Indian Hotels",
+      "change": 11.4
     }
   ],
   "topLosers": [
     {
       "name": "Tata Motors",
-      "change": -21
+      "change": -21.1
     },
     {
       "name": "BEL",
-      "change": -15.3
+      "change": -12.7
     },
     {
       "name": "Suzlon",
-      "change": -7.9
-    },
-    {
-      "name": "Cochin Shipyard",
-      "change": -7.5
+      "change": -10.4
     },
     {
       "name": "HDFC Bank",
-      "change": -6.1
+      "change": -8.2
+    },
+    {
+      "name": "CDSL",
+      "change": -4.3
     }
   ],
   "news": [],
   "upcomingEarnings": [],
   "outlook": "Gain concentrated in Kalyan Jewellers, Cholamandalam, Sun Pharma. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
-  "rebalancing": "Review (down ≥15%): BEL -15.3%, Tata Motors -21.0% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Kalyan Jewellers +42.9%, Cholamandalam +18.9%, Sun Pharma +16.9%, Indian Hotels +14.2%."
+  "rebalancing": "Review (down ≥15%): Tata Motors -21.1% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Kalyan Jewellers +44.1%, Cholamandalam +19.9%, Sun Pharma +16.5%."
 }
