@@ -1,52 +1,52 @@
 {
-  "date": "2026-08-10",
-  "summary": "Portfolio up +4.3% (₹1,03,013 vs ₹98,792 invested). Leaders: Kalyan Jewellers, Cholamandalam. Laggards: Tata Motors, BEL.",
+  "date": "2026-08-17",
+  "summary": "Portfolio up +2.7% (₹1,01,465 vs ₹98,792 invested). Leaders: Kalyan Jewellers, Cholamandalam. Laggards: Tata Motors, Suzlon.",
   "topGainers": [
     {
       "name": "Kalyan Jewellers",
-      "change": 44.1
+      "change": 43.8
     },
     {
       "name": "Cholamandalam",
-      "change": 19.9
+      "change": 18.9
     },
     {
       "name": "Sun Pharma",
-      "change": 16.5
-    },
-    {
-      "name": "PG Electroplast",
-      "change": 11.9
+      "change": 14.1
     },
     {
       "name": "Indian Hotels",
-      "change": 11.4
+      "change": 9.8
+    },
+    {
+      "name": "Bharti Airtel",
+      "change": 7.8
     }
   ],
   "topLosers": [
     {
       "name": "Tata Motors",
-      "change": -21.1
-    },
-    {
-      "name": "BEL",
-      "change": -12.7
+      "change": -25.1
     },
     {
       "name": "Suzlon",
+      "change": -11.5
+    },
+    {
+      "name": "BEL",
       "change": -10.4
     },
     {
       "name": "HDFC Bank",
-      "change": -8.2
+      "change": -9.4
     },
     {
-      "name": "CDSL",
-      "change": -4.3
+      "name": "Cochin Shipyard",
+      "change": -6.1
     }
   ],
   "news": [],
   "upcomingEarnings": [],
   "outlook": "Gain concentrated in Kalyan Jewellers, Cholamandalam, Sun Pharma. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
-  "rebalancing": "Review (down ≥15%): Tata Motors -21.1% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Kalyan Jewellers +44.1%, Cholamandalam +19.9%, Sun Pharma +16.5%."
+  "rebalancing": "Review (down ≥15%): Tata Motors -25.1% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Kalyan Jewellers +43.8%, Cholamandalam +18.9%, Sun Pharma +14.1%."
 }
