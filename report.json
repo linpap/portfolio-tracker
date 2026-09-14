@@ -1,52 +1,52 @@
 {
-  "date": "2026-09-07",
-  "summary": "Portfolio up +0.6% (₹99,387 vs ₹98,792 invested). Leaders: Kalyan Jewellers, Cholamandalam. Laggards: Tata Motors, Suzlon.",
+  "date": "2026-09-14",
+  "summary": "Portfolio down -0.7% (₹98,130 vs ₹98,792 invested). Leaders: Kalyan Jewellers, Cholamandalam. Laggards: Tata Motors, Suzlon.",
   "topGainers": [
     {
       "name": "Kalyan Jewellers",
-      "change": 39.1
+      "change": 41.4
     },
     {
       "name": "Cholamandalam",
-      "change": 15.9
-    },
-    {
-      "name": "Sun Pharma",
-      "change": 12.5
+      "change": 16.9
     },
     {
       "name": "Indian Hotels",
-      "change": 9.5
+      "change": 9.9
     },
     {
-      "name": "ICICI Bank",
-      "change": 6.3
+      "name": "Sun Pharma",
+      "change": 9.8
+    },
+    {
+      "name": "Max Healthcare",
+      "change": 3
     }
   ],
   "topLosers": [
     {
       "name": "Tata Motors",
-      "change": -30.3
+      "change": -31.9
     },
     {
       "name": "Suzlon",
-      "change": -15.1
+      "change": -17.3
     },
     {
       "name": "BEL",
-      "change": -11.8
+      "change": -12.1
+    },
+    {
+      "name": "Cochin Shipyard",
+      "change": -11.5
     },
     {
       "name": "HDFC Bank",
-      "change": -11.1
-    },
-    {
-      "name": "Hindalco",
-      "change": -3.4
+      "change": -11.5
     }
   ],
   "news": [],
   "upcomingEarnings": [],
-  "outlook": "Gain concentrated in Kalyan Jewellers, Cholamandalam, Sun Pharma. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
-  "rebalancing": "Review (down ≥15%): Suzlon -15.1%, Tata Motors -30.3% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Kalyan Jewellers +39.1%, Cholamandalam +15.9%, Sun Pharma +12.5%."
+  "outlook": "Drawdown concentrated in Tata Motors, Suzlon, BEL. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
+  "rebalancing": "Review (down ≥15%): Suzlon -17.3%, Tata Motors -31.9% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Kalyan Jewellers +41.4%, Cholamandalam +16.9%."
 }
