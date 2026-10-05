@@ -1,48 +1,48 @@
 {
-  "date": "2026-09-28",
-  "summary": "Portfolio down -5.5% (₹93,356 vs ₹98,792 invested). Leaders: Kalyan Jewellers, Sun Pharma. Laggards: Tata Motors, Suzlon.",
+  "date": "2026-10-05",
+  "summary": "Portfolio down -6.7% (₹92,200 vs ₹98,792 invested). Leaders: Kalyan Jewellers, Indian Hotels. Laggards: Tata Motors, Suzlon.",
   "topGainers": [
     {
       "name": "Kalyan Jewellers",
-      "change": 32.7
-    },
-    {
-      "name": "Sun Pharma",
-      "change": 9.7
+      "change": 31
     },
     {
       "name": "Indian Hotels",
-      "change": 8.7
+      "change": 10.9
+    },
+    {
+      "name": "Sun Pharma",
+      "change": 6.2
     },
     {
       "name": "Cholamandalam",
-      "change": 3.5
+      "change": 1.7
     }
   ],
   "topLosers": [
     {
       "name": "Tata Motors",
-      "change": -36.3
+      "change": -34.7
     },
     {
       "name": "Suzlon",
-      "change": -25.7
-    },
-    {
-      "name": "BEL",
-      "change": -16.2
+      "change": -27
     },
     {
       "name": "Cochin Shipyard",
-      "change": -14.8
+      "change": -17.7
     },
     {
-      "name": "HDFC Bank",
-      "change": -10.1
+      "name": "BEL",
+      "change": -16.3
+    },
+    {
+      "name": "PG Electroplast",
+      "change": -13.2
     }
   ],
   "news": [],
   "upcomingEarnings": [],
-  "outlook": "Drawdown concentrated in Tata Motors, Suzlon, BEL. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
-  "rebalancing": "Review (down ≥15%): BEL -16.2%, Suzlon -25.7%, Tata Motors -36.3% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Kalyan Jewellers +32.7%."
+  "outlook": "Drawdown concentrated in Tata Motors, Suzlon, Cochin Shipyard. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
+  "rebalancing": "Review (down ≥15%): BEL -16.3%, Cochin Shipyard -17.7%, Suzlon -27.0%, Tata Motors -34.7% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Kalyan Jewellers +31.0%."
 }
