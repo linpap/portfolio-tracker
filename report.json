@@ -1,48 +1,52 @@
 {
-  "date": "2026-10-12",
-  "summary": "Portfolio down -7.1% (₹91,729 vs ₹98,792 invested). Leaders: Kalyan Jewellers, Indian Hotels. Laggards: Tata Motors, Suzlon.",
+  "date": "2026-10-19",
+  "summary": "Portfolio down -6.7% (₹92,204 vs ₹98,792 invested). Leaders: Kalyan Jewellers, Indian Hotels. Laggards: Tata Motors, Suzlon.",
   "topGainers": [
     {
       "name": "Kalyan Jewellers",
-      "change": 33.4
+      "change": 29.7
     },
     {
       "name": "Indian Hotels",
-      "change": 8.8
+      "change": 16.2
     },
     {
       "name": "Sun Pharma",
-      "change": 5
+      "change": 4
     },
     {
-      "name": "Cholamandalam",
-      "change": 0.1
+      "name": "ICICI Bank",
+      "change": 3.1
+    },
+    {
+      "name": "Bharti Airtel",
+      "change": 1.8
     }
   ],
   "topLosers": [
     {
       "name": "Tata Motors",
-      "change": -35.6
+      "change": -37.1
     },
     {
       "name": "Suzlon",
-      "change": -25.8
+      "change": -24.3
     },
     {
       "name": "Cochin Shipyard",
-      "change": -21
+      "change": -21.4
     },
     {
       "name": "BEL",
-      "change": -18.7
+      "change": -18
     },
     {
-      "name": "Hindalco",
-      "change": -15.1
+      "name": "Max Healthcare",
+      "change": -17.6
     }
   ],
   "news": [],
   "upcomingEarnings": [],
   "outlook": "Drawdown concentrated in Tata Motors, Suzlon, Cochin Shipyard. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
-  "rebalancing": "Review (down ≥15%): Hindalco -15.1%, BEL -18.7%, Cochin Shipyard -21.0%, Suzlon -25.8%, Tata Motors -35.6% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Kalyan Jewellers +33.4%."
+  "rebalancing": "Review (down ≥15%): Max Healthcare -17.6%, BEL -18.0%, Cochin Shipyard -21.4%, Suzlon -24.3%, Tata Motors -37.1% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Kalyan Jewellers +29.7%, Indian Hotels +16.2%."
 }
