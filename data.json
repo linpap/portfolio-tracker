@@ -1,117 +1,117 @@
 {
-  "lastUpdated": "2026-10-23T09:27:06.206Z",
+  "lastUpdated": "2026-10-26T10:20:34.321Z",
   "prices": {
     "ICICIBANK": {
-      "price": 1380.4,
+      "price": 1403,
       "name": "ICICI Bank Limited",
-      "dayHigh": 1404.5,
-      "dayLow": 1377.9,
-      "prevClose": 1398.5
+      "dayHigh": 1403.9,
+      "dayLow": 1378.7,
+      "prevClose": 1394.2
     },
     "HDFCBANK": {
-      "price": 690.25,
+      "price": 688.05,
       "name": "HDFC Bank Limited",
-      "dayHigh": 696.8,
-      "dayLow": 686.85,
-      "prevClose": 694.05
+      "dayHigh": 693.8,
+      "dayLow": 684,
+      "prevClose": 692.8
     },
     "BHARTIARTL": {
-      "price": 1881.5,
+      "price": 1917.5,
       "name": "Bharti Airtel Limited",
-      "dayHigh": 1916.9,
-      "dayLow": 1860.7,
-      "prevClose": 1895
+      "dayHigh": 1917.5,
+      "dayLow": 1874.5,
+      "prevClose": 1892.1
     },
     "LT": {
-      "price": 3635,
+      "price": 3680,
       "name": "Larsen & Toubro Limited",
-      "dayHigh": 3663.9,
-      "dayLow": 3596.8,
-      "prevClose": 3638.3
+      "dayHigh": 3684,
+      "dayLow": 3615.1,
+      "prevClose": 3647
     },
     "TATAMOTORS": {
-      "price": 262.4,
+      "price": 263.7,
       "name": "Tata Motors Passenger Vehicles Limited",
-      "dayHigh": 270.55,
-      "dayLow": 259.35,
-      "prevClose": 270
+      "dayHigh": 264.65,
+      "dayLow": 259.4,
+      "prevClose": 264.6
     },
     "BEL": {
-      "price": 358.1,
+      "price": 363,
       "name": "Bharat Electronics Limited",
-      "dayHigh": 366.45,
-      "dayLow": 354.55,
-      "prevClose": 364.5
+      "dayHigh": 364.5,
+      "dayLow": 356.2,
+      "prevClose": 362
     },
     "INDHOTEL": {
-      "price": 774.95,
+      "price": 795.5,
       "name": "The Indian Hotels Company Limited",
-      "dayHigh": 794.2,
-      "dayLow": 764.65,
-      "prevClose": 782.3
+      "dayHigh": 795.65,
+      "dayLow": 764.45,
+      "prevClose": 781.75
     },
     "HINDALCO": {
-      "price": 866.8,
+      "price": 885.65,
       "name": "Hindalco Industries Limited",
-      "dayHigh": 873.75,
-      "dayLow": 852,
-      "prevClose": 885.6
+      "dayHigh": 891.65,
+      "dayLow": 851.1,
+      "prevClose": 869.85
     },
     "SUNPHARMA": {
-      "price": 1742.9,
+      "price": 1740,
       "name": "Sun Pharmaceutical Industries Limited",
-      "dayHigh": 1765.4,
-      "dayLow": 1735.2,
-      "prevClose": 1758
+      "dayHigh": 1766,
+      "dayLow": 1729.4,
+      "prevClose": 1748
     },
     "COCHINSHIP": {
-      "price": 1134.2,
+      "price": 1133.9,
       "name": "Cochin Shipyard Limited",
-      "dayHigh": 1164.1,
-      "dayLow": 1126.7,
-      "prevClose": 1163.9
+      "dayHigh": 1150.9,
+      "dayLow": 1120,
+      "prevClose": 1139.9
     },
     "MAXHEALTH": {
-      "price": 815.75,
+      "price": 835,
       "name": "Max Healthcare Institute Limited",
-      "dayHigh": 819.4,
-      "dayLow": 803,
-      "prevClose": 817
+      "dayHigh": 843,
+      "dayLow": 812.05,
+      "prevClose": 815
     },
     "CHOLAFIN": {
-      "price": 1469.6,
+      "price": 1447.9,
       "name": "Cholamandalam Investment and Finance Company Limited",
-      "dayHigh": 1500.3,
-      "dayLow": 1450,
-      "prevClose": 1530.9
+      "dayHigh": 1457.6,
+      "dayLow": 1415,
+      "prevClose": 1463.8
     },
     "KALYANKJIL": {
-      "price": 509.95,
+      "price": 504.8,
       "name": "Kalyan Jewellers India Limited",
-      "dayHigh": 531.75,
-      "dayLow": 500.45,
-      "prevClose": 530.4
+      "dayHigh": 518,
+      "dayLow": 500,
+      "prevClose": 512
     },
     "CDSL": {
-      "price": 1181,
+      "price": 1196,
       "name": "Central Depository Services (India) Limited",
-      "dayHigh": 1224.7,
-      "dayLow": 1173.6,
-      "prevClose": 1225
+      "dayHigh": 1204,
+      "dayLow": 1159.1,
+      "prevClose": 1188.5
     },
     "SUZLON": {
-      "price": 36.94,
+      "price": 37.12,
       "name": "Suzlon Energy Limited",
-      "dayHigh": 38.62,
-      "dayLow": 36.88,
-      "prevClose": 38.57
+      "dayHigh": 37.37,
+      "dayLow": 36.56,
+      "prevClose": 37.4
     },
     "PGEL": {
-      "price": 465.05,
+      "price": 475,
       "name": "PG Electroplast Limited",
-      "dayHigh": 490.1,
-      "dayLow": 461.5,
-      "prevClose": 489.65
+      "dayHigh": 476.9,
+      "dayLow": 454.5,
+      "prevClose": 470.05
     }
   }
 }
