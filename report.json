@@ -1,52 +1,52 @@
 {
-  "date": "2026-10-26",
-  "summary": "Portfolio down -9.5% (₹89,453 vs ₹98,792 invested). Leaders: Indian Hotels, Kalyan Jewellers. Laggards: Tata Motors, Suzlon.",
+  "date": "2026-11-02",
+  "summary": "Portfolio down -6.4% (₹92,507 vs ₹98,792 invested). Leaders: Indian Hotels, Kalyan Jewellers. Laggards: Tata Motors, Suzlon.",
   "topGainers": [
     {
       "name": "Indian Hotels",
-      "change": 21.6
+      "change": 25.8
     },
     {
       "name": "Kalyan Jewellers",
-      "change": 18.8
-    },
-    {
-      "name": "ICICI Bank",
-      "change": 4.7
+      "change": 18.9
     },
     {
       "name": "Bharti Airtel",
-      "change": 4.1
+      "change": 8
     },
     {
       "name": "Sun Pharma",
-      "change": 3.8
+      "change": 5.6
+    },
+    {
+      "name": "ICICI Bank",
+      "change": 3.5
     }
   ],
   "topLosers": [
     {
       "name": "Tata Motors",
-      "change": -40.3
+      "change": -38.4
     },
     {
       "name": "Suzlon",
-      "change": -30.4
+      "change": -33.9
     },
     {
       "name": "Cochin Shipyard",
-      "change": -27.3
+      "change": -25.2
     },
     {
       "name": "BEL",
-      "change": -21.1
+      "change": -18.2
     },
     {
-      "name": "Max Healthcare",
-      "change": -17.1
+      "name": "HDFC Bank",
+      "change": -12.5
     }
   ],
   "news": [],
   "upcomingEarnings": [],
   "outlook": "Drawdown concentrated in Tata Motors, Suzlon, Cochin Shipyard. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
-  "rebalancing": "Review (down ≥15%): PG Electroplast -15.5%, Max Healthcare -17.1%, BEL -21.1%, Cochin Shipyard -27.3%, Suzlon -30.4%, Tata Motors -40.3% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Indian Hotels +21.6%, Kalyan Jewellers +18.8%."
+  "rebalancing": "Review (down ≥15%): BEL -18.2%, Cochin Shipyard -25.2%, Suzlon -33.9%, Tata Motors -38.4% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Indian Hotels +25.8%, Kalyan Jewellers +18.9%."
 }
