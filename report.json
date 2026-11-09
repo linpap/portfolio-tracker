@@ -1,52 +1,52 @@
 {
-  "date": "2026-11-02",
-  "summary": "Portfolio down -6.4% (₹92,507 vs ₹98,792 invested). Leaders: Indian Hotels, Kalyan Jewellers. Laggards: Tata Motors, Suzlon.",
+  "date": "2026-11-09",
+  "summary": "Portfolio up +2.9% (₹1,01,677 vs ₹98,792 invested). Leaders: Kalyan Jewellers, Indian Hotels. Laggards: Tata Motors, Suzlon.",
   "topGainers": [
     {
-      "name": "Indian Hotels",
-      "change": 25.8
-    },
-    {
       "name": "Kalyan Jewellers",
-      "change": 18.9
+      "change": 43.8
     },
     {
-      "name": "Bharti Airtel",
-      "change": 8
-    },
-    {
-      "name": "Sun Pharma",
-      "change": 5.6
+      "name": "Indian Hotels",
+      "change": 36.3
     },
     {
       "name": "ICICI Bank",
-      "change": 3.5
+      "change": 18.6
+    },
+    {
+      "name": "Sun Pharma",
+      "change": 13.6
+    },
+    {
+      "name": "Cholamandalam",
+      "change": 13.4
     }
   ],
   "topLosers": [
     {
       "name": "Tata Motors",
-      "change": -38.4
+      "change": -33.3
     },
     {
       "name": "Suzlon",
-      "change": -33.9
+      "change": -27.1
     },
     {
       "name": "Cochin Shipyard",
-      "change": -25.2
+      "change": -17.3
     },
     {
       "name": "BEL",
-      "change": -18.2
+      "change": -14.2
     },
     {
-      "name": "HDFC Bank",
-      "change": -12.5
+      "name": "Max Healthcare",
+      "change": -9.1
     }
   ],
   "news": [],
   "upcomingEarnings": [],
-  "outlook": "Drawdown concentrated in Tata Motors, Suzlon, Cochin Shipyard. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
-  "rebalancing": "Review (down ≥15%): BEL -18.2%, Cochin Shipyard -25.2%, Suzlon -33.9%, Tata Motors -38.4% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Indian Hotels +25.8%, Kalyan Jewellers +18.9%."
+  "outlook": "Gain concentrated in Kalyan Jewellers, Indian Hotels, ICICI Bank. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
+  "rebalancing": "Review (down ≥15%): Cochin Shipyard -17.3%, Suzlon -27.1%, Tata Motors -33.3% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Kalyan Jewellers +43.8%, Indian Hotels +36.3%, ICICI Bank +18.6%, Sun Pharma +13.6%, Cholamandalam +13.4%, Bharti Airtel +12.5%."
 }
