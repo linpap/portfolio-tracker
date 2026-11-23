@@ -1,14 +1,14 @@
 {
-  "date": "2026-11-16",
-  "summary": "Portfolio up +4.3% (₹1,03,049 vs ₹98,792 invested). Leaders: Kalyan Jewellers, Indian Hotels. Laggards: Tata Motors, Suzlon.",
+  "date": "2026-11-23",
+  "summary": "Portfolio up +3.5% (₹1,02,242 vs ₹98,792 invested). Leaders: Kalyan Jewellers, Indian Hotels. Laggards: Tata Motors, Suzlon.",
   "topGainers": [
     {
       "name": "Kalyan Jewellers",
-      "change": 66.6
+      "change": 53.6
     },
     {
       "name": "Indian Hotels",
-      "change": 35.5
+      "change": 38.5
     },
     {
       "name": "ICICI Bank",
@@ -16,37 +16,37 @@
     },
     {
       "name": "Cholamandalam",
-      "change": 17.2
+      "change": 16
     },
     {
       "name": "Bharti Airtel",
-      "change": 16.9
+      "change": 15.6
     }
   ],
   "topLosers": [
     {
       "name": "Tata Motors",
-      "change": -40.6
+      "change": -41.4
     },
     {
       "name": "Suzlon",
-      "change": -29.8
+      "change": -32.8
     },
     {
       "name": "Cochin Shipyard",
-      "change": -25.8
+      "change": -30.1
     },
     {
       "name": "BEL",
-      "change": -12.7
+      "change": -14
     },
     {
       "name": "Hindalco",
-      "change": -11.1
+      "change": -13.3
     }
   ],
   "news": [],
   "upcomingEarnings": [],
   "outlook": "Gain concentrated in Kalyan Jewellers, Indian Hotels, ICICI Bank. Mechanical view only — no news/macro overlay. Educational tracking, not investment advice.",
-  "rebalancing": "Review (down ≥15%): Cochin Shipyard -25.8%, Suzlon -29.8%, Tata Motors -40.6% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Kalyan Jewellers +66.6%, Indian Hotels +35.5%, ICICI Bank +18.3%, Cholamandalam +17.2%, Bharti Airtel +16.9%."
+  "rebalancing": "Review (down ≥15%): Cochin Shipyard -30.1%, Suzlon -32.8%, Tata Motors -41.4% — re-confirm thesis; average-down only if conviction holds, else trim. Let run / trim if overweight (up ≥12%): Kalyan Jewellers +53.6%, Indian Hotels +38.5%, ICICI Bank +18.3%, Cholamandalam +16.0%, Bharti Airtel +15.6%."
 }
